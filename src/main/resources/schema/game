@@ -1,0 +1,40 @@
+{
+  "javaType": "model.Game",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "amount": {
+          "type": "number"
+    },
+    "value": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "joke": {
+          "type": "string"
+        },
+        "categories": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "joke",
+        "categories"
+      ]
+    }
+  },
+  "required": [
+    "type",
+    "value"
+  ]
+}
