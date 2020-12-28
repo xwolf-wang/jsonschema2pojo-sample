@@ -16,3 +16,7 @@ This is a small application that demonstrates use of jsonschema2pojo to generate
     # Parse and print name from http://store.steampowered.com/api/appdetails?appids=219
     java -jar target/test-json.jar 219
     Half-Life 2: Demo
+
+# java to Json Schema
+
+    https://github.com/mbknor/mbknor-jackson-jsonSchema
